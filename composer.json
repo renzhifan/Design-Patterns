@@ -1,0 +1,18 @@
+{
+    "name": "renzhifan/design-patterns",
+    "description": "design patterns",
+	"type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "renzhifan",
+            "email": "zhifan6797@163.com"
+        }
+    ],
+    "require": {},
+	"autoload": {
+        "psr-4": {
+            "Renzhifan\\DesignPatterns\\": ""
+        }
+    }
+}
