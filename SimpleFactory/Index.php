@@ -2,7 +2,7 @@
 
 
 namespace Renzhifan\DesignPatterns\SimpleFactory;
-
+require __DIR__.'/../vendor/autoload.php';
 
 class Client
 {
