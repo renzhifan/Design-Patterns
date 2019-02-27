@@ -9,6 +9,7 @@ class Adapter implements Target
     public function __construct(Adaptee $adaptee)
     {
         $this->adaptee=$adaptee;
+        var_dump($this->$adaptee);die;
         $adaptee->money='$5';
     }
     public function pay()
