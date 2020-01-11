@@ -57,5 +57,5 @@ echo $class2->prefixValue('FOO_') ."\n";
 /*以上例程会输出：
 ConcreteClass1
 FOO_ConcreteClass1
-ConcreteClass2 FOO_
-ConcreteClass2*/
+ConcreteClass2
+FOO_ConcreteClass2*/
