@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Renzhifan\DesignPatterns\AbstractFactory;
+namespace Renzhifan\DesignPatterns\AbstractFactory03;
 
 require __DIR__.'/../vendor/autoload.php';
 class Index

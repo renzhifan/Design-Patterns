@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Renzhifan\DesignPatterns\AbstractFactory;
+namespace Renzhifan\DesignPatterns\AbstractFactory03;
 
 //User产品接口
 interface User
