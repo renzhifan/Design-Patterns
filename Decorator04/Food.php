@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Renzhifan\DesignPatterns\Decorator;
+namespace Renzhifan\DesignPatterns\Decorator04;
 
 
 interface Food

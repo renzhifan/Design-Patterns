@@ -1,19 +1,19 @@
 <?php
 
 
-namespace Renzhifan\DesignPatterns\Decorator;
+namespace Renzhifan\DesignPatterns\Decorator04;
 
 
-class Kaolengmian implements Food
+class Egg extends Decorator
 {
     public function name()
     {
         // TODO: Implement name() method.
-        return '烤冷面';
+        return $this->food->name().'+蛋';
     }
     public function price()
     {
         // TODO: Implement price() method.
-        return 6;
+        return $this->food->price() +1;
     }
 }

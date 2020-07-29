@@ -1,19 +1,19 @@
 <?php
 
 
-namespace Renzhifan\DesignPatterns\Decorator;
+namespace Renzhifan\DesignPatterns\Decorator04;
 
 
-class Shouzhuabing implements Food
+class Sausage extends Decorator
 {
     public function name()
     {
         // TODO: Implement name() method.
-        return '手抓饼';
+        return $this->food->name() . '+肠';
     }
     public function price()
     {
         // TODO: Implement price() method.
-        return 5;
+        return $this->food->price() + 2;
     }
 }

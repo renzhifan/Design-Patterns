@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Renzhifan\DesignPatterns\Decorator;
+namespace Renzhifan\DesignPatterns\Decorator04;
 require __DIR__.'/../vendor/autoload.php';
 /*结构
 Component: 原本的对象和装饰共同的接口
