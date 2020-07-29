@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Renzhifan\DesignPatterns\ClassAdapter;
+namespace Renzhifan\DesignPatterns\Adapter05\Demo;
 
 
 class Adapter extends Adaptee implements Target
@@ -13,7 +13,7 @@ class Adapter extends Adaptee implements Target
     public function notify()
     {
         // TODO: Implement notify() method.
-        echo '通知';
+        echo '通知'.PHP_EOL;
     }
 
 }

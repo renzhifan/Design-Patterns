@@ -1,5 +1,5 @@
 <?php
-
+//工厂方法模式
 
 namespace Renzhifan\DesignPatterns\FactoryMethod02\Demo;
 

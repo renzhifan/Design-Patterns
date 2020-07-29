@@ -1,5 +1,5 @@
 <?php
-
+//装饰器模式
 
 namespace Renzhifan\DesignPatterns\Decorator04\Demo;
 

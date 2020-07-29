@@ -1,5 +1,5 @@
 <?php
-
+//抽象工厂模式
 
 namespace Renzhifan\DesignPatterns\AbstractFactory03\Example;
 require __DIR__ . '/../../vendor/autoload.php';

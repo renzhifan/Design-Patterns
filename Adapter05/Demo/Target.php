@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Renzhifan\DesignPatterns\ClassAdapter;
+namespace Renzhifan\DesignPatterns\Adapter05\Demo;
 
 
 interface Target
